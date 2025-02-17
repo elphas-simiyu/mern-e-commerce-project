@@ -134,8 +134,5 @@ npm start
 This project is licensed under the MIT License.
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
-
-## Support
-For issues and suggestions, open an issue on [GitHub](https://github.com/your-username/gogoods/issues).
+- [Elphas](https://github.com/elphas-simiyu)
 
