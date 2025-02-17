@@ -1,0 +1,55 @@
+📦 ecommerce-platform
+ ┣ 📂 backend (Node.js & Express)
+ ┃ ┣ 📂 config
+ ┃ ┃ ┣ 📜 db.js (MongoDB connection)
+ ┃ ┃ ┣ 📜 mpesa.js (M-Pesa API config)
+ ┃ ┣ 📂 controllers
+ ┃ ┃ ┣ 📜 authController.js
+ ┃ ┃ ┣ 📜 productController.js
+ ┃ ┃ ┣ 📜 orderController.js
+ ┃ ┃ ┣ 📜 mpesaController.js
+ ┃ ┣ 📂 middleware
+ ┃ ┃ ┣ 📜 authMiddleware.js (JWT authentication)
+ ┃ ┃ ┣ 📜 errorMiddleware.js (Error handling)
+ ┃ ┣ 📂 models
+ ┃ ┃ ┣ 📜 User.js (User schema)
+ ┃ ┃ ┣ 📜 Product.js (Product schema)
+ ┃ ┃ ┣ 📜 Order.js (Order schema)
+ ┃ ┣ 📂 routes
+ ┃ ┃ ┣ 📜 authRoutes.js (Login, Register)
+ ┃ ┃ ┣ 📜 productRoutes.js (CRUD operations)
+ ┃ ┃ ┣ 📜 cartRoutes.js (Cart management)
+ ┃ ┃ ┣ 📜 orderRoutes.js (Order management)
+ ┃ ┃ ┣ 📜 mpesaRoutes.js (M-Pesa payments)
+ ┃ ┣ 📂 utils (Helper functions, Payment logic)
+ ┃ ┣ 📜 server.js (Main entry point)
+ ┣ 📂 frontend (React.js)
+ ┃ ┣ 📂 src
+ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┃ ┣ 📜 Navbar.js
+ ┃ ┃ ┃ ┣ 📜 ProductCard.js
+ ┃ ┃ ┃ ┣ 📜 Cart.js
+ ┃ ┃ ┣ 📂 pages
+ ┃ ┃ ┃ ┣ 📜 Home.js
+ ┃ ┃ ┃ ┣ 📜 ProductDetails.js
+ ┃ ┃ ┃ ┣ 📜 Cart.js
+ ┃ ┃ ┃ ┣ 📜 Checkout.js
+ ┃ ┃ ┃ ┣ 📜 Login.js
+ ┃ ┃ ┃ ┣ 📜 Register.js
+ ┃ ┃ ┃ ┣ 📜 AdminDashboard.js
+ ┃ ┃ ┣ 📂 context (State management - Redux)
+ ┃ ┃ ┃ ┣ 📜 AuthContext.js
+ ┃ ┃ ┃ ┣ 📜 CartContext.js
+ ┃ ┃ ┣ 📂 services (API calls with Axios)
+ ┃ ┃ ┃ ┣ 📜 api.js (Handles API calls)
+ ┃ ┃ ┃ ┣ 📜 mpesa.js (Handles M-Pesa transactions)
+ ┃ ┃ ┣ 📜 App.js (Main React app)
+ ┃ ┃ ┣ 📜 index.js (Entry point)
+ ┣ 📂 database (MongoDB Atlas - Cloud)
+ ┃ ┣ 📜 User_Product_Order_collections.txt
+ ┣ 📂 deployment
+ ┃ ┣ 📜 Vercel (Frontend deployment)
+ ┃ ┣ 📜 Render-DigitalOcean (Backend deployment)
+ ┣ 📜 .env (Environment variables)
+ ┣ 📜 package.json (Dependencies)
+ ┣ 📜 README.md (Project documentation)
